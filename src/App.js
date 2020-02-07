@@ -1,8 +1,6 @@
 import React from "react";
 import Counter from "./Counter";
 
-function App() {
+export default () => {
   return <Counter />;
-}
-
-export default App;
+};
